@@ -268,3 +268,180 @@
 
 * facilities, hardware, software, procedures, and documentation intended for or used to perform testing of software
 * a test environment could contain multiple environments to accomodate specific test sub-processes (e.g. a unit test environment, )
+
+## test environment readiness report
+
+* document that describes the fulfillment of each test environment requirement
+
+## Test Environment Requirements
+
+* description of the necessary properties of the test environment
+* all or parts of the test environment requirements could reference where the information can be found, e.g. in the appropriate Organizational Test Strategy, Test Plan, and/or Test Specification
+
+## Test Environment Set-Up Process
+
+* dynamic test process for establishing and maintaining a required test environment
+
+## test execution
+
+* process of running a test on the test item, producing actual result(s)
+
+## Test Execution Log
+
+* document that records the execution of one or more test procedures
+
+## Test Execution Process
+
+* dynamic test process for executing test procedures created in the Test Design and Implementation Process in the prepared test environment, and recording the results
+
+## Test Incident Reporting Process
+
+* dynamic test process for reporting to the relevant stakeholders issues requiring further action that were identified during the test execution process
+
+## test item
+
+* work product that is an object of testing
+* a system, a software item, a requirements document, a design specification, a user guide
+
+## test level
+
+* specific instantiation of a test sub-process
+* the following are common test-levels that can be instantiated as test sub-processes: component test level/sub-process, system test level/sub-process, acceptance test level/sub-process
+* test levels are synonymous with test phases
+
+## test management
+
+* planning, scheduling, estimating, monitoring, reporting, control and completion of test activities
+
+## Test Management Process
+
+* test process containing the sub-processes that are required for the management of a test project
+* see Test Planning Process, Test Monitoring and Control Process, Test Completion Process
+
+## Test Monitoring and Control Process
+
+* Test Management Process for ensuring that testing is performed in line with a Test Plan and with organizational test specifications
+
+## test object
+
+* see test item
+
+## test phase
+
+* specific instantiation of a test sub-process
+* test phases are synonymous with test levels, therefore examples for test phases are the same as for test levels (e.g. system test phase/sub-process)
+
+## Test Plan
+
+* detailed description of test objectives to be achieved and the means and schedule for achieving them, organized to coordinate test activities for some test item or set of test items
+* a project can have more than one Test Plan, for example there could be a Project Test Plan (also known as a master test plan) that encompasses all testing activities on the project; further detail of particular test activities could be defined in one or more test sub-process plans (i.e. a system test plan or a performance test plan)
+* typically a test plan is a written document, though other plan formats could be possible as defined locally within an organization or project
+* Test Plans could also be written for non-project activities, for example a maintenance test plan.
+
+## Test Planning Process
+
+* Test Management Process used to complete test planning and develop Test Plans
+
+## test practice
+
+* conceptual framework that can be applied to the Organizational Test Process, the Test Management Process, and/or the Dynamic Test Processes to facilitate testing
+* Test Practices are sometimes referred to as test approaches
+
+## test procedure
+
+* sequence of test cases in execution order, and any associated actions that may be required to set up the initial preconditions and any wrap up activities post execution
+* Test procedures included detailed instructions for how to run a set of one or more test cases selected to be run consecutively, including set up of common preconditions, and providing input and evaluating the actual result for each included test case.
+
+## Test Procedure Specification
+
+* document specifying one or more test procedures, which are collections of test cases to be executed for a particular objective
+* the test cases in a test set are listed in their required order in the test procedure
+* also known as a manual test script. A test procedure specification for an automated test run is usually called a test script
+
+## test process
+
+* provides information on the quality of a software product, often comprised of a number of activities, grouped into one or more test sub-processes
+* The Test Process for a particular project may well consist of multiple sub-processes, e.g. a system test sub-process, a Test Planning sub-process (a part of a larger Test Management Process) or a static testing sub-process
+
+## test requirement
+
+* see test condition
+
+## test result
+
+* indication of whether or not a specific test case has passed or failed, i.e. if the actual result observed as test item output corresponds to the expected result or if deviations have occurred
+
+## test script
+
+* test procedure specification for manual or automated testing
+
+## test set
+
+* set of one or more test cases with a common constraint on their execution
+* a specific test environment, specialized domain knowledge, or specific purpose
+
+## test specification
+
+* complete documentation of the test design, test cases and test procedures for a specific test item
+
+## test status report
+
+* report that provides information about the status of the testing that is being performed in the specified reporting period
+
+## test strategy
+
+* part of the Test Plan that describes the approach to testing for a specific test project or test sub-process or sub-processes
+* the test strategy is a distinct entity from the Organizational Test Strategy
+* The test strategy usually describes some or all of the following: the test practices used; the test sub-processes to be implemented; the retesting and regression testing to be employed; the test design techniques and corresponding test completion criteria to be used; test data; test environment and testing tool requirements; and expectations for test deliverables.
+
+## test sub-process
+
+* test management and dynamic (and static) test processes used to perform a specific test level (e.g. system testing, acceptance testing) or test type (e.g. usability testing, performance testing) normally within the context of an overall test process for a test project
+* a test sub-process could comprise one or more test types. Depending on the life cycle model used, test sub-processes are also typically called test phases, test levels, test stages, or test tasks
+
+## test technique
+
+* see test design technique
+
+## test traceability matrix
+
+* document, spreadsheet, or other automated tool used to identify related items in documentation and software, such as requirements with associated tests
+* also known as: verification cross reference matrix, requirements test matrix, requirements verification table, and others
+* different test traceability matrices could have different information, formats, and levels of detail
+
+## test type
+
+* group of testing activities that are focused on specific quality characteristics
+* a test type could be performed in a single test sub-process or could be performed across a number of test sub-processes (e.g. performance testing completed at a component test sub-process and also completed at a system test sub-process)
+* security testing, functional testing, usability testing, and performance testing
+
+## testing
+
+* set of activities conducted to facilitate discovery and/or evaluation of properties of one or more test items
+* testing activities could include planning, preparation, execution, reporting, and management activities, insofar as they are directed towards testing
+
+## testware
+
+* artifacts produced during the testing process required to plan, design, and execute tests
+* testware can include things such as documentation, scripts, inputs, expected results, files, databases, environment, and any additional software or utilities used during the course of testing
+
+## unscripted testing
+
+* dynamic testing in which the tester's actions are not prescribed by written instructions in a test case
+
+## volume testing
+
+* type of performance efficiency testing conducted to evaluate the capacity of the test item to process specified volumes of data (usually at or near maximum specified capacity) in terms of throughput capacity, storage capacity, or both
+
+## white box testing
+
+* see structure based testing
+
+
+
+
+
+
+
+
+
