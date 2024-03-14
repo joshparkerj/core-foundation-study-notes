@@ -202,3 +202,31 @@ The "Derive Test Procedures (TD6)" activity involves deriving test procedures ba
    - Note 4: This may require repeating tasks a) to e) as necessary adjustments or additional analysis are needed.
 
 By completing these tasks, testers can effectively derive, prioritize, and document the test procedures that need to be followed during test execution. This ensures systematic and structured testing efforts aligned with project objectives and risk considerations.
+
+## Partial Example Test Design Process
+
+The example provided illustrates the application of activities TD2 to TD5 of the Test Design and Implementation process. Let's break down how each activity is applied:
+
+1. **Test Conditions (TD2)**:
+   - Test conditions are derived based on the specified test basis and test completion criterion.
+   - Equivalence partitions are identified for valid and invalid inputs, along with corresponding outputs.
+   - Example test conditions include age ranges, acceptance/rejection criteria, and conditions for excess warnings and discount messages.
+
+2. **Test Coverage Items (TD3)**:
+   - Test coverage items are derived from the identified test conditions using Equivalence Partitioning.
+   - Each test coverage item corresponds to a specific test condition or combination of conditions.
+   - Example test coverage items include age ranges, input types, and specified outputs.
+
+3. **Test Cases (TD4)**:
+   - Test cases are generated to exercise each of the identified test coverage items.
+   - Each test case specifies input values and the expected result.
+   - Some test cases may exercise multiple test coverage items to minimize the number of test cases required.
+   - Example test cases include inputs such as age values and expected outcomes like acceptance, rejection, or warning messages.
+
+4. **Test Set (TD5)**:
+   - Test cases are distributed into test sets based on constraints on their execution, such as automation capabilities or specific test environment requirements.
+   - Two test sets are created: one for manual testing and one for automated testing.
+   - Test set TS1 includes test cases #4 and #5 for manual testing of non-integer inputs.
+   - Test set TS2 includes test cases #1, #2, #3, and #6 for automated testing of integer inputs.
+
+By following these activities, testers can systematically design and implement test procedures to achieve comprehensive test coverage and meet the test completion criteria effectively.
